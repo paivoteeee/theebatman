@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.d-block{
+    height: 90vh;
+    width: 100%;
+}
+.header{
+    background-color: rgb(14, 14, 14);
+    height: 11vh;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+section{
+    overflow: hidden;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+.nav-link:hover{
+    color: black;
+    opacity: 0.5;
+}
+#section1{
+    background-color: rgb(49, 49, 49);
+}
+#section2{
+    height: 130vh;
+    background-color: rgb(49, 49, 49);
+}
+#section4{
+    height: 130vh;
+    background-color: rgb(49, 49, 49);
+}
+#section3{
+    height: 200vh;
+    background-color: rgb(49, 49, 49);
+}
+#section5{
+    height: 120vh;
+    background-color: rgb(49, 49, 49);
+}
+.card-img-top{
+    height:300px ;
+    width:200px ;
+}
+.card-deck{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+}
+.title5{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-body{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+/*sobre*/
+
+.container{
+    display: grid;
+    padding-top: 5%;
+}
+.pi{
+    color: white;
+    float: left;
+}
+.img{
+    float: left;
+}
+.titulo{
+    color: white;
+    padding-left: 60px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+.titulo1{
+    color: white;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pi{
+    padding-right: 70px;
+    text-align: justify;
+    color: white;
+    padding-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ml-3{
+    padding-right: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.mr-3{
+    padding-left: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.contaainer{
+    padding-top: 10%;
+}
+.contaaiiner{
+    padding-top: 6%;
+}
+
+/*contato*/
+
+form {
+    margin-left: 30%;
+    background-color: rgb(121, 120, 120)000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(34, 34, 34, 0.1);
+    width: 39%;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
+button {
+    background-color: #3a3b3a;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c94d27;
+}
+#footer2 {
+    background-color: rgb(44, 43, 43);
+    color: #fff; 
+    text-align: center;
+    padding: 10px; 
+}
+
+/*galeria*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+
+  .gallery td {
+    border: 2px solid #fff;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .gallery img {
+    width: 260px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+  }
+  .gallery img:hover{
+    opacity: 0.5;
+  }
